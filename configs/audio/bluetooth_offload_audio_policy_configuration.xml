@@ -3,7 +3,8 @@
      From stock's bluetooth_offload_audio_policy_configuration.xml. The A2DP ports carry no
      encoded formats, so audio policy picks them only for codecs the primary module's
      offloaded ports do not list (SBC and AAC are offloaded). The LE Audio ports are
-     stock's, for software LE Audio (ro.bluetooth.leaudio_offload.supported is unset). -->
+     stock's, for software LE Audio: this module is used with LE Audio offload disabled
+     (audio_policy_configuration_le_offload_disabled.xml). -->
 <module name="bluetooth" halVersion="2.0">
     <mixPorts>
         <!-- A2DP Audio Ports. Spatializer only, as in bluetooth_audio_policy_configuration.xml:
