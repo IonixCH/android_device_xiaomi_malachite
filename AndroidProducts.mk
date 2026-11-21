@@ -4,4 +4,10 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_malachite.mk
+    $(LOCAL_DIR)/lineage_malachite.mk \
+    $(LOCAL_DIR)/rr_malachite.mk
+
+COMMON_LUNCH_CHOICES := \
+    rr_malachite-user \
+    rr_malachite-userdebug \
+    rr_malachite-eng
