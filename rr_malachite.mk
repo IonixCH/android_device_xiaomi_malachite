@@ -14,3 +14,6 @@ PRODUCT_MANUFACTURER := Xiaomi
 
 RR_MAINTAINER := IonixCH
 WITH_GMS := true
+
+# Exclude OmniJaws due to missing OmniJawsClient in RR-17.0
+PRODUCT_PACKAGES -= OmniJaws
